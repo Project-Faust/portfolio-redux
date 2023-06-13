@@ -29,7 +29,7 @@ export default function App() {
         {currentNav === navLinks[2] && <Skills></Skills>}
         {currentNav === navLinks[3] && <Contact></Contact>}
       </main>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 };
