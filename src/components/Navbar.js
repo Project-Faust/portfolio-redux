@@ -1,7 +1,6 @@
 import React from "react";
 
-export default function Navbar(props) {
-    const { navLinks = [], currentLink, setCurrentLink } = props;
+export default function Navbar({ navLinks = [], currentLink, setCurrentLink }) {
     return (
         <ul className="nav nav-tabs justify-content-center">
             {navLinks.map((navLink) => (
