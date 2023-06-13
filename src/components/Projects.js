@@ -3,12 +3,16 @@ import { projects } from "../data";
 
 export default function Projects() {
     return (
-        <div>
+        <section>
+            <div className="projectsHeader text-center m-2">
+                <h1>Projects</h1>
+                <p>Listed below are some projects I have created or contributed to.</p>
+            </div>
             {projects.map((res) => (
-                <div className="projectContainer text-center m-2">
+                <div className="projectContainer text-center m-2 border-top">
                     <div className="projectText">
-                        <a href={res.deployed} target="_blank" rel="noreferrer">
-                            <h2>{res.title}</h2>
+                        <a className="text-decoration-none" href={res.deployed} target="_blank" rel="noreferrer">
+                            <h2 className="">{res.title}</h2>
                             <a className="projectImageAnchor"
                                 href={res.deployed}
                                 target="_blank"
@@ -17,18 +21,18 @@ export default function Projects() {
                                 <img
                                     src={res.image}
                                     alt="preview"
-                                    className="projectImage" />
+                                    className="projectImage img-fluid" />
                             </a>
                         </a>
                         <p className="projectDescription">{res.description}
                             <br />
-                            <a className="githubLink" href={res.repository}
+                            <a className="githubLink text-decoration-none" href={res.repository}
                                 target="_blank"
-                                rel="noreferrer">Repository</a>
+                                rel="noreferrer">GitHub Repository</a>
                         </p>
                     </div>
                 </div>
             ))}
-        </div>
+        </section>
     )
 };
