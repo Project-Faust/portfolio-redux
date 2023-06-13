@@ -1,10 +1,11 @@
 export const projects = [
     {
-        title: '',
+        title: 'API Playground',
         subtitle: '',
-        description: '',
+        description: 'Sandbox Learning Tool for Web APIs',
         image: '',
-        link: ''
+        deployed: 'https://arcane-reaches-06891.herokuapp.com/',
+        repository: 'https://github.com/Project-Faust/API-Playground',
     }
 ]
 
@@ -20,7 +21,8 @@ export const skills = [
 //     subtitle: '',
 //     description: '',
 //     image: '',
-//     link: ''
+// deployed: '',
+// repository: '',
 // },
 
 // skill template
