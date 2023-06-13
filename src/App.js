@@ -18,19 +18,18 @@ export default function App() {
 
   return (
     <div>
-      <header>
-        <Navbar
-          navLinks={navLinks}
-          currentLink={currentNav}
-          setCurrentLink={setCurrentNav}
-        />
-      </header>
+      <Navbar
+        navLinks={navLinks}
+        currentLink={currentNav}
+        setCurrentLink={setCurrentNav}
+      />
       <main>
         {currentNav === navLinks[0] && <About></About>}
         {currentNav === navLinks[1] && <Projects></Projects>}
         {currentNav === navLinks[2] && <Skills></Skills>}
         {currentNav === navLinks[3] && <Contact></Contact>}
       </main>
+      <Footer></Footer>
     </div>
   );
 };
