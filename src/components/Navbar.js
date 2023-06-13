@@ -1,20 +1,22 @@
 import React from "react";
 
-export default function Navbar() {
+export default function Navbar(props) {
+    const { navLinks = [], currentLink, setCurrentLink } = props;
     return (
-        <ul class="nav nav-tabs justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contac">Contact</a>
-            </li>
+        <ul className="nav nav-tabs justify-content-center">
+            {navLinks.map((navLink) => (
+                <li key={navLink.name} className="nav-item">
+                    <a
+                        className={`nav-link ${currentLink === navLink ? 'active' : ''}`}
+                        href={navLink.url}
+                        onClick={() => {
+                            setCurrentLink(navLink);
+                        }}
+                    >
+                        {navLink.name}
+                    </a>
+                </li>
+            ))}
         </ul>
-    )
+    );
 };
