@@ -4,6 +4,7 @@ import Contact from "./components/Contact/index.js";
 import Navbar from "./components/Navbar/index.js";
 import Projects from "./components/Projects/index.js";
 import Skills from "./components/Resume/index.js";
+import Footer from "./components/Footer/index.js";
 import './App.css';
 
 export default function App() {
@@ -29,7 +30,7 @@ export default function App() {
         {currentNav === navLinks[2] && <Skills></Skills>}
         {currentNav === navLinks[3] && <Contact></Contact>}
       </main>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 };
