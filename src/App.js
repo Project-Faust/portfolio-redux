@@ -24,7 +24,7 @@ export default function App() {
         currentLink={currentNav}
         setCurrentLink={setCurrentNav}
       />
-      <main>
+      <main id="mainContainer">
         {currentNav === navLinks[0] && <About></About>}
         {currentNav === navLinks[1] && <Projects></Projects>}
         {currentNav === navLinks[2] && <Skills></Skills>}

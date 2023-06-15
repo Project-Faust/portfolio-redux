@@ -1,4 +1,4 @@
-.pdfContainer .pdfViewer {
+.pdfContainer, .pdfViewer {
     height:100%
 }
 
@@ -8,5 +8,9 @@
 
 #resume {
     width: auto;
+    height: 100%;
+}
+
+#resumeSection {
     height: 100%;
 }

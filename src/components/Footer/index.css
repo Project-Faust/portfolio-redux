@@ -2,8 +2,10 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 4rem;
 }
 
 .footerImage {
-    width: 50px;
+    width: auto;
+    height: 3rem;
 }

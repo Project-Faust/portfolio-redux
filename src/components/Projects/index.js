@@ -3,7 +3,7 @@ import { projects } from "../../data";
 
 export default function Projects() {
   return (
-    <section className="m-3">
+    <section className="m-3 pb-5">
       <div
         className="text-center">
         <h1>Projects</h1>
