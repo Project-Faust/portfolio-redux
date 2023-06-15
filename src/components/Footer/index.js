@@ -11,23 +11,23 @@ export default function Footer() {
             <a
                 className="mx-3 my-1"
                 href="https://github.com/Project_faust"
+                target="_blank"
+                rel="noreferrer"
             >
                 <img
                     src={GitHub}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="footerImage"
                     alt="GitHub"
+                    className="footerImage"
                 ></img>
             </a>
             <a
                 className="mx-3 my-1"
-                href="https://www.linkedin.com/in/richie-lollis-042bb0235/"
+                href="www.linkedin.com/in/cody-pentecost-a2a363a6"
+                target="_blank"
+                rel="norefferer"
             >
                 <img
                     src={LinkedIn}
-                    target="_blank"
-                    rel="norefferer"
                     alt="LinkedIn"
                     className="footerImage"
                 />
