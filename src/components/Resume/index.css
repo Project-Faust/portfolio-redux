@@ -1,0 +1,12 @@
+.pdfContainer .pdfViewer {
+    height:100%
+}
+
+.pdfViewer {
+    width: 100%;
+}
+
+#resume {
+    width: auto;
+    height: 100%;
+}
