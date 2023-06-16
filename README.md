@@ -1,7 +1,5 @@
-  # 
   To visit my portfolio, please <a href="https://project-faust.github.io/portfolio-redux/">click here</a>.
-  #
-  
+
   # Project Creator
   Lane Pentecost
 
