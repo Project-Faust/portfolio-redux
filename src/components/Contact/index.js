@@ -7,40 +7,44 @@ export default function Contact() {
         message: "",
     });
     const { name, email, message } = formState;
-
     const [errorMessage, setErrorMessage] = useState("");
 
     function validateEmail(email) {
-        var re =
+        const emailRegex =
             /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(String(email).toLowerCase());
-    }
+        return emailRegex.test(String(email).toLowerCase());
+    };
 
     function handleChange(event) {
-        if (event.target.name === "email") {
-            const isValid = validateEmail(event.target.value);
-            if (!isValid) {
-                setErrorMessage("Your email is invalid.");
-            } else {
-                setErrorMessage("");
-            }
+        console.log('click')
+        if (!event.target.value.length) {
+            setErrorMessage(`${event.target.name} is required.`);
         } else {
-            if (!event.target.value.length) {
-                setErrorMessage(`${event.target.name} is required.`);
-            } else {
-                setErrorMessage("");
-            }
+            setErrorMessage("");
         }
         if (!errorMessage) {
             setFormState({ ...formState, [event.target.name]: event.target.value });
         }
-    }
+    };
 
     function handleSubmit(event) {
         event.preventDefault();
-    }
+
+        const isValidEmail = validateEmail(email);
+
+        if (!isValidEmail) {
+            setErrorMessage("Invalid email.");
+        } else {
+            setFormState({
+                name: "",
+                email: "",
+                message: ""
+            });
+            setErrorMessage("");
+        }
+    };
+
     return (
-        // <div className="container m-3">
         <section
             className="row m-3">
             <div id="contactContainer" className="col-md-6 mx-auto">
@@ -96,6 +100,5 @@ export default function Contact() {
                 </form>
             </div>
         </section>
-        // </div>
     );
 }
