@@ -10,7 +10,7 @@ export default function Footer() {
             className="d-flex border-top align-items-center justify-content-center sticky-bottom bg-light mt-3">
             <a
                 className="mx-3 my-1"
-                href="https://github.com/Project_faust"
+                href="https://github.com/Project-faust"
                 target="_blank"
                 rel="noreferrer"
             >
@@ -22,7 +22,7 @@ export default function Footer() {
             </a>
             <a
                 className="mx-3 my-1"
-                href="www.linkedin.com/in/cody-pentecost-a2a363a6"
+                href="https://www.linkedin.com/in/cody-pentecost-a2a363a6"
                 target="_blank"
                 rel="norefferer"
             >
