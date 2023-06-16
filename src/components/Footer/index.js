@@ -24,7 +24,7 @@ export default function Footer() {
                 className="mx-3 my-1"
                 href="https://www.linkedin.com/in/cody-pentecost-a2a363a6"
                 target="_blank"
-                rel="norefferer"
+                rel="noreferer"
             >
                 <img
                     src={LinkedIn}
