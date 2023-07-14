@@ -47,6 +47,14 @@ export const projects = [
         deployed: 'https://github.com/Project-Faust/markdown-generator',
         repository: 'https://github.com/Project-Faust/markdown-generator',
     },
+    {
+        title: 'Scheduli',
+        subtitle: 'MERN, FullCalendar, NodeMailer',
+        description: 'Browser-based scheduling application with calendar view',
+        image: require('./assets/images/scheduli.png'),
+        deployed: 'https://scheduli-adfba105dbbc.herokuapp.com/',
+        repository: 'https://github.com/Project-Faust/portfolio-redux'
+    }
 ]
 
 export const skills = [
