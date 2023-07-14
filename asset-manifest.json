@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio-redux/static/css/main.b43ba1f9.css",
-    "main.js": "/portfolio-redux/static/js/main.c50410c5.js",
+    "main.js": "/portfolio-redux/static/js/main.594ebe1f.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-redux/static/js/787.1ed0c42c.chunk.js",
+    "static/media/scheduli.png": "/portfolio-redux/static/media/scheduli.ca9fa36c688c53875c99.png",
     "static/media/little-big-sales(1).png": "/portfolio-redux/static/media/little-big-sales(1).58fac2b05fdda6cba452.png",
     "static/media/nhra-head-lane.jpg": "/portfolio-redux/static/media/nhra-head-lane.63a2d35d807e32e5890e.jpg",
     "static/media/resume.pdf": "/portfolio-redux/static/media/resume.53c6ee62dc48c15faec0.pdf",
@@ -11,11 +12,11 @@
     "static/media/note-taker.png": "/portfolio-redux/static/media/note-taker.509fdf1238830a558ee5.png",
     "index.html": "/portfolio-redux/index.html",
     "main.b43ba1f9.css.map": "/portfolio-redux/static/css/main.b43ba1f9.css.map",
-    "main.c50410c5.js.map": "/portfolio-redux/static/js/main.c50410c5.js.map",
+    "main.594ebe1f.js.map": "/portfolio-redux/static/js/main.594ebe1f.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-redux/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b43ba1f9.css",
-    "static/js/main.c50410c5.js"
+    "static/js/main.594ebe1f.js"
   ]
 }
