@@ -8,12 +8,12 @@ export const projects = [
         repository: 'https://github.com/Project-Faust/API-Playground',
     },
     {
-        title: 'Belmont Drive-In Redux',
+        title: 'Belmont Drive-In',
         subtitle: 'HTML5, CSS, JavaScript, Bootstrap, Node.Js',
         description: 'Business Page for the Belmont Drive-In Theatre',
         image: require('./assets/images/drive-in-redux-logo.png'),
-        deployed: 'https://project-faust.github.io/drive-in-redux/',
-        repository: 'https://github.com/Project-Faust/drive-in-redux',
+        deployed: 'https://belmontdriveinmovies.com',
+        repository: 'https://github.com/Project-Faust/drive-in-react',
     },
     {
         title: 'Little Big Sales',

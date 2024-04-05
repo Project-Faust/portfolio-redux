@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 // import { skills } from "../../data.js";
-import ResumePDF from "../../assets/files/resume.pdf";
+import ResumePDF from "../../assets/files/resume2024.pdf";
 
 export default function Skills() {
     return (
