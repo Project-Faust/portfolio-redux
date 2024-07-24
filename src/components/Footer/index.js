@@ -7,7 +7,7 @@ export default function Footer() {
     return (
         <footer
             id="footer"
-            className="d-flex border-top align-items-center justify-content-center sticky-bottom bg-light mt-3">
+            className="d-flex border-top align-items-center justify-content-center sticky-bottom bg-light mt-0">
             <a
                 className="mx-3 my-1"
                 href="https://github.com/Project-faust"
